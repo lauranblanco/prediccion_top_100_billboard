@@ -5,6 +5,7 @@ from main.app import app
 # Layout principal
 app.layout = html.Div([
     html.H1("Hola, Dash"),
+    html.H2("Prueba cambios"),
 ])
 
 # Servidor principal
