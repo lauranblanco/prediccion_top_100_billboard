@@ -1,5 +1,5 @@
 from dash import Dash, html
-from main.app import app
+from app import app
 
 
 # Layout principal
