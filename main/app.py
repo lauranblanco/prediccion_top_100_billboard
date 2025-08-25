@@ -24,8 +24,8 @@ with st.sidebar:
 
 # Navegación entre páginas
 if page == "Dashboard":
-    from pages import Dashboard
-    Dashboard.show()
+    from pages import dashboard
+    dashboard.show()
 elif page == "Análisis":
     from pages import Analisis
     Analisis.show()
